@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Stress Survey</title>
+  </head>
+  <body>
+    <div class="container">
+         <div class="jumbotron">
+           <h2>Stress Test Survey</h2>
+         </div>
+         <form id="stress-survey" class="well">
+           <div class="form-group">
+             <h4>In the past year, I have used the following modes of stress relief:</h4>
+             <input type="checkbox" name="stress-relief" value="meditation">Meditating for an hour a day<br>
+             <input type="checkbox" name="stress-relief" value="yoga">Practicing yoga<br>
+             <input type="checkbox" name="stress-relief" value="talking">Talking to friends about issues<br>
+             <input type="checkbox" name="stress-relief" value="walk">Walking<br>
+             <input type="checkbox" name="stress-relief" value="kale">Eating kale salad<br>
+             <input type="checkbox" name="stress-relief" value="counseling">Counseling<br>
+             <input type="checkbox" name="stress-relief" value="looking">Looking out a window on a misty morning<br>
+           </div>
+           <div class="form-group">
+            <h4>In the past year, I have had the following medical symptoms:</h4>
+            <input type="checkbox" name="medical-symptoms" value="blood-pressure">Blood pleasure<br>
+            <input type="checkbox" name="medical-symptoms" value="obesity">Obesity<br>
+            <input type="checkbox" name="medical-symptoms" value="depression">Depression<br>
+            <input type="checkbox" name="medical-symptoms" value="cortisol">High cortisol levels<br>
+            <input type="checkbox" name="medical-symptoms" value="anxiety">Anxiety<br>
+            <input type="checkbox" name="medical-symptoms" value="crying">Random crying outbursts<br>
+          </div>
+          <div class ="form-group">
+            <h4>In the past year, I have had the following warning signs:</h4>
+            <input type="checkbox" name="warning-signs" value="sleep">Loss of sleep<br>
+            <input type="checkbox" name="warning-signs" value="anger">Outbursts of anger<br>
+            <input type="checkbox" name="warning-signs" value="over-eating">Sad eating :(<br>
+            <input type="checkbox" name="warning-signs" value="relationships">Avoiding relationships<br>
+            <input type="checkbox" name="warning-signs" value="weight">Sudden weight gains or loss<br>
+            <input type="checkbox" name="warning-signs" value="overwhelmed">Feeling overwhelmed.<br>
+          </div>
+          <button type="submit" class="btn-danger">Submit Survey</button>
+         </form>
+         <div id="stress-suggest">
+           <h4></h4>
+         </div>
+       </div>
+  </body>
+</html>
